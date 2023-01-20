@@ -36,7 +36,7 @@ sinAlcohol.push(new SinAlcohol(4, "Mirinda", "2.25l", 350))
 sinAlcohol.push(new SinAlcohol(5, "Jugo Baggio - Durazno", "1l", 240))
 
 
-const buscarProd = (array, busqueda) => { return array.find(pieza => pieza.marca === busqueda) }
+const buscarProd = (array, busqueda) => { return array.find(producto => producto.marca === busqueda) }
 const sumarProd = (n1, n2) => { return resultado = n1 + n2 }
 const descuentoEfectivo = (n1) => { return resultado = n1 - (n1 * 0.1) }
 const cantCuotas = (n1, n2) => { return resultado = n1 / n2 }
